@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# exec $(dirname $0)/${STEP:-stepA_cpp.2} "${@}"
+exec $(dirname $0)/${STEP:-step0_repl} "${@}"

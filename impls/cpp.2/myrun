@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+workingdir=$(pwd)
+cd "../.."
+make "test^cpp.2^stepX"
+cd "${workingdir}"
